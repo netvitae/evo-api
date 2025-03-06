@@ -17,6 +17,7 @@ COPY ./src ./src
 COPY ./public ./public
 COPY ./prisma ./prisma
 COPY ./manager ./manager
+COPY ./.env ./.env
 COPY ./runWithProvider.js ./
 COPY ./tsup.config.ts ./
 
